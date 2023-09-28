@@ -18,7 +18,7 @@ https://disk.yandex.ru/i/koR5eMCToCZS2Q
 
 !wget https://github.com/ods-ai-ml4sg/proj_news_viz/releases/download/data/gazeta.csv.gz
 
-# пример работы с ним 
+#### пример работы с ним 
 from corus import load_ods_gazeta
 path = 'gazeta.csv.gz'
 records = load_ods_gazeta(path)
